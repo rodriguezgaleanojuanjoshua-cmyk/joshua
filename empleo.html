@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        
+    <form action="">
+        <h2>formulario de empleo</h2>
+
+        <h3>Datos del usuario</h3>
+
+        <!--Titulos cajones-->
+        <label for="">Nombre de usuario</label>
+           <!--Texto del cuadro-->
+        <input type="text" id="nombreUsuario"name="nombre" placeholder="Ej: juan joshua">
+         <!--Titulos cajones-->
+        <label for="">Apellido del usuario</label>
+           <!--Texto del cuadro-->
+        <input type="text" id="apellidoUsuar"name="apellido" placeholder="Ej:rodriguez galeano">
+
+        <br><br>
+
+         <label for="CorreodeUsuario">correo Electronico</label>
+        <input type="text" id="CorreodeUsuario" name="email" placeholder="Correo@ejemplo.com" required>
+         </form>
+
+    <form action=" ">
+
+        <h2>FECHA DE DISPONIBILIDAD</h2>
+          
+        <label for="nacimiento Fecha nacimiento"></label>
+        <input type="date" id="nacimiento" name="Fecha_nac">
+        <br><br>
+
+        <h2>Nivel de estudio</h2>
+
+        <p>Nivel de estudio:</p>
+        <input type="radio" name="Nivel" id="Primaria basica">
+        <label for="planGratis">Primaria basica</label>
+ 
+        <input type="radio" name="Nivel" id="Bachillerato">
+        <label for="planGratis">Bachillerato</label>
+ 
+        <input type="radio" name="Nivel" id="Tecnico">
+        <label for="planGratis">Tecnico</label>
+        
+        <input type="radio" name="Nivel" id="Titulo universitario">
+        <label for="planGratis">Titulo universitario</label>
+        <br><br>
+ 
+        <h2>Años de experiencia</h2>
+
+         <label for="edad">Años de experiencia: </label>
+        <input type="number" id="Años" name="Experiencia" min="0" max="50">
+        <br><br>
+
+        <h2>Lenguajes de programacion</h2>
+
+        <label for="pais">¿que tipos de lenguajes de programacion conoces?</label>
+<select name="lenguajes de programacion" id="lenguajes">
+<option value="---SELECCIONE UNA OPCION---"></option>
+<option value="CO">python</option>
+<option value="CO">JavaScript</option>
+<option value="CO">programacion en exel</option>
+<option value="CO">Ninguna de las anteriores</option>
+<option value="CO">Todas las anteriores</option>
+
+</select>
+
+<br><br>
+
+<h2>A continuacion le daremos el espacion para que nos deje su carta de presentacion donde nos explicara o manifestara por que desea y debe obtener el puesto solicitado</h2>
+
+<textarea for="mensaje" id="mensaje" rows="8" cols="160" placeholder="Escribe aqui..."></textarea>
+
+<br><br>
+
+   <button type="submit">Enviar formulario</button>
+   <button type="reset">Limpiar formulario</button>
+    </form>
+        
+    </body>
+    </html>
